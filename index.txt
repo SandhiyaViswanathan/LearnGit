@@ -1,0 +1,49 @@
+Step 1 => Create a repository in Gti hub portal 
+Step 2 => Git clone to create the remote in local
+Step 3 => Git config --global user.name "ourusername" ==>>>>> This will set the credentials for all the git repository
+Step 4 => Git config --globa user.email "ouremail"
+Step 5 => Git config user.name "ourusername" ==>>>>> This will set the credentials for particular git repository
+Step 6 => To add the files to Commit => Git add filename filename
+to add many files =>> git add .
+to ignore one file ==>> git ignore filename
+
+We have many stages
+ Working Directory => Staging Area => Local Repo => Remote Repo
+
+ Working Directory is the one where we are wokring that is making changes
+ Staging Area is the one where the files will go after we did git add command
+ Local Repo is the one where the files will go after we did git commit -m "commit messages"
+ Remote Repo is the one where the files will go after we did git push origin master
+
+
+Create a new project and initialize a git from local
+ To initialize and create the project with git => git init newProjectname
+ this will create and initialize a project but not in remote 
+ 
+Create  a project in github website and clone in local
+git clone thaturl => this will clone a project in local
+
+Make the existing project as Git Repo
+git init => this will initialize a new repository 
+git remote add URL
+
+To do add and commit in one command
+git commit -am "message to commit"
+
+git ls-files => this command will show all trackking files
+
+if we moved the files from working Directory to Staging Area using git add command but really dont want to stage that changes
+to do unstage the changes => git reset HEAD filename
+when we give this command the files moved back from staging area to working directory but whaterve the chnges we have donr in that fine will be there.
+
+
+to rename the file 
+git mv filename filename  => example == git mv level3-file.txt level3.txt
+
+To remove files from staging area
+git rm filename
+
+
+To get the history
+git log
+
