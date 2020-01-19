@@ -76,5 +76,4 @@ git diff HEAD -- filename ==> working directory vs last commit of particular fil
 
 git diff --staged HEAD -- filename ==> staging area vs last commit of particular file
 
-
-
+git diff master origin/master ==> this show diff between remote directory vs local directory
