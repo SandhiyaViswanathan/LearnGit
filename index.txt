@@ -65,8 +65,16 @@ git diff ==> this command will show the difference that is newly added code in w
 
 git difftool ==> this will show the difference in tool
 
-git diff HEAD ==> this show the diff between wroking directpry and last commitd
+git diff HEAD ==> this show the diff between wroking directpry vs last commit
 git difftool HEAD => this will show in tools
+
+git diff --staged HEAD ==> this will show the diff between staging area vs last commit
+
+git diff -- filename(index.txt) ==> this will show the diff of particular file
+
+git diff HEAD -- filename ==> working directory vs last commit of particular file
+
+git diff --staged HEAD -- filename ==> staging area vs last commit of particular file
 
 
 
