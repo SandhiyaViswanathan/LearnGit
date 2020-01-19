@@ -46,4 +46,27 @@ git rm filename
 
 To get the history
 git log
+git log --abbrev-commit => this command will short the commit value
+git log --oneline --graph --decorate ==> this will show the commit in oneline
+git log --since="3 days ago" ==> this will show the last 3 days commit
+git log --follow  --level2 (keywords which we used for commit message) ==> this will filter the commmmit based on keyword
+git log --all --graph --decorate --oneline ==> this will give oneline command but everytime we have to type 
+all the lines of code so we are doing config thing
+ TO DO tht => git config --global alias.hist "log --all --graph --decorate --oneline" 
+ now we no need to type all the commands.. 
+git hist ==> this command will show the exact output 
+
+To ignore folder
+Crate a file called .gitignore ==> mention the file names which u want to ignore
+
+README.md ==> this file will show in website 
+
+git diff ==> this command will show the difference that is newly added code in working directory vs code in staging area
+
+git difftool ==> this will show the difference in tool
+
+git diff HEAD ==> this show the diff between wroking directpry and last commitd
+git difftool HEAD => this will show in tools
+
+
 
